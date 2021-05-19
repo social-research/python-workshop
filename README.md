@@ -22,15 +22,18 @@ This is an introductory workshop and no prior experience with programming or Pyt
 
 ## Software
 
-The workshop will use Jupyter notebooks to edit and write code. Students have two options:
+The workshop will use Jupyter Notebooks to edit and write code. Students have two options:
 
 1. Pre-install Python and Jupyter Notebooks locally on your personal computer. We recommend simply installing [Anaconda](https://www.anaconda.com/products/individual), which comes with both, as well as with the most common data science packages.
 
 2. Alternatively, you can use [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true) to work in the cloud. In this case, you do not not need to pre-install any software but you need to have a Google account.
 
 
-## Optional resources
+## Materials
 
+All materials for the workshop are available at [https://github.com/social-research/python-workshop](https://github.com/social-research/python-workshop).
+
+Additional optional resources include:
 * [Python Wikibook](https://en.wikibooks.org/wiki/Python_Programming)
 * Matthes, Eric. [*Python Crash Course Cheat Sheet*](https://ehmatthes.github.io/pcc/cheatsheets/README.html).
 * [Intermediate and advanced Python documentation](http://docs.python.org/3/)
@@ -40,10 +43,10 @@ The workshop will use Jupyter notebooks to edit and write code. Students have tw
 
 1. Introduction to programming languages
   * Primitive constructs, syntax, static semantics, and semantics
-  * Introduction to Jupyter
+  * Introduction to Jupyter Notebooks
 2. Primitives in Python
   * Scalar data types, operators, expressions, and value assignment to variables
-  * Non-scalar data types: strings, lists, tuples, sets, and dictionaries
+  * Non-scalar data types: `str`, `list`, `tuple`, `set`, and `dict`
   * Sequence operations and methods: indexing, slicing, joining, splitting, aliasing, and cloning
 3. Control flow in Python
   * Branching with `if`, `elif`, and `else`
