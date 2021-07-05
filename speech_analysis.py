@@ -1,4 +1,5 @@
 import string
+import urllib.request
 
 STOP_WORDS = ['a', 'about', 'across', 'after', 'an', 'and', 'any', 'are', 'as', 'at',
               'be', 'because', 'but', 'by', 'did', 'do', 'does', 'for', 'from',
@@ -7,13 +8,28 @@ STOP_WORDS = ['a', 'about', 'across', 'after', 'an', 'and', 'any', 'are', 'as', 
               'so', 'some', 'than', 'the', 'this', 'that', 'those', 'through', 'to',
               'very', 'what', 'where', 'whether', 'which', 'while', 'who', 'with']
 
+
+def get_text(fname):
+    """Open file given as either directory location or url by fname
+    and return text as a string.
+    """
+    if fname.startswith('http://') or fname.startswith('https://'):
+        txt = ''
+        for line in urllib.request.urlopen(fname):
+            txt += line.decode("utf-8")
+    else:
+        with open(fname) as f:
+            txt = f.read()
+    return txt
+
+
 def get_tokens(fname):
     """Read given text file and return a list with all words in lowercase
     in the order they appear in the text. Common contractions are expanded
     and hyphenated words are combined in one word.
     """
-    with open(fname) as f:
-        txt = f.read()
+    # Open file
+    txt = get_text(fname)
 
     # Remove paragraphs and format consistently
     txt = txt.strip().replace('\n', ' ').replace("’", "'")
