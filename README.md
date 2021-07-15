@@ -26,7 +26,7 @@ The workshop will use Jupyter Notebooks to edit and write code. Students have tw
 
 1. Use [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb#recent=true) to work in the cloud via your web browser.
     1. You will need a Google account to use Colab so if you don't already have one, create it. Other than that, you do not need to install any specialized software.
-    2. Open the [Colab file](https://drive.google.com/file/d/1ou6DKxFaAVKBrn9AEgWEjdpNe76bltP9/view?usp=sharing) in your browser.
+    2. Open the [Colab file](https://drive.google.com/file/d/1ou6DKxFaAVKBrn9AEgWEjdpNe76bltP9/view?usp=sharing) in your browser by first clicking on the link and then on `Open with Google Colaboratory` on top of the page.
     3. Click on `Copy to Drive` to create your own copy, which you can edit and save.
 
 2. Alternatively, you can pre-install Python and Jupyter Notebooks locally on your personal computer and run them from there. Unfortunately, we will be unable to provide support for this option, so choose it only if you already have some experience with the software.
