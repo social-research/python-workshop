@@ -39,7 +39,7 @@ The workshop will use Jupyter Notebooks to edit and write code. Students have tw
 All materials for the workshop are available at [https://github.com/social-research/python-workshop](https://github.com/social-research/python-workshop).
 
 Additional optional resources include:
-* [RESOUCES.md file](https://github.com/social-research/python-workshop/blob/main/RESOUCES.md)
+* [RESOURCES.md file](https://github.com/social-research/python-workshop/blob/main/RESOURCES.md)
 * [Python Wikibook](https://en.wikibooks.org/wiki/Python_Programming)
 * Matthes, Eric. [*Python Crash Course Cheat Sheet*](https://ehmatthes.github.io/pcc/cheatsheets/README.html).
 * [Intermediate and advanced Python documentation](http://docs.python.org/3/)
